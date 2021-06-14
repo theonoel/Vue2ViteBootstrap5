@@ -56,7 +56,7 @@
 import { Modal } from 'bootstrap'
 
 export default {
-  name: 'Hello W',
+  name: 'HelloW',
   props: {
     msg: String
   },

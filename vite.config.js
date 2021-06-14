@@ -1,18 +1,18 @@
-import path from "path";
-import { defineConfig } from "vite";
-import { createVuePlugin } from "vite-plugin-vue2";
-import ViteComponents from "vite-plugin-components";
-import ViteIcons, { ViteIconsResolver } from "vite-plugin-icons";
+import path from 'path'
+import { defineConfig } from 'vite'
+import { createVuePlugin } from 'vite-plugin-vue2'
+import ViteComponents from 'vite-plugin-components'
+import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 const config = defineConfig({
   resolve: {
     alias: {
-      "@": `${path.resolve(__dirname, "src")}`,
+      '@': `${path.resolve(__dirname, 'src')}`
     },
-    dedupe: ["vue-demi"],
+    dedupe: ['vue-demi']
   },
   build: {
-    minify: true,
+    minify: true
   },
 
   plugins: [
@@ -20,18 +20,18 @@ const config = defineConfig({
     ViteComponents({
       customComponentResolvers: [
         ViteIconsResolver({
-          componentPrefix: "",
-        }),
-      ],
+          componentPrefix: ''
+        })
+      ]
     }),
     ViteIcons({
-      defaultStyle: "",
-    }),
+      defaultStyle: ''
+    })
   ],
 
   server: {
-    port: 9000,
-  },
-});
+    port: 9000
+  }
+})
 
-export default config;
+export default config
