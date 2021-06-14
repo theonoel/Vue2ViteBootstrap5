@@ -1,16 +1,35 @@
 {
-  "name": "vue2-vite",
+  "name": "vue2-vite-bootstrap5-starter",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint './src/**/*.{js,vue,md}'",
+    "lint:fix": "eslint './src/**/*.{js,vue,md}' --fix"
   },
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@vue/composition-api": "^1.0.0-rc.8",
+    "@vueuse/core": "^4.9.1",
+    "bootstrap": "^5.0.0-beta3",
+    "core-js": "^3.11.1",
     "vite-plugin-vue2": "^1.4.0",
+    "vue-demi": "^0.7.5",
+    "vue-router": "^3.5.1",
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "vite": "^2.0.5"
+    "@iconify/json": "^1.1.337",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "eslint": "^7.25.0",
+    "prettier": "^2.2.1",
+    "sass": "1.32.*",
+    "vite-plugin-components": "^0.8.4",
+    "vite-plugin-icons": "^0.5.0",
+    "vite-plugin-vue2": "^1.4.4",
+    "vite": "^2.2.3"
   }
 }
