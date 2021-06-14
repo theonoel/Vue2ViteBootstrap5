@@ -11,7 +11,6 @@ const config = defineConfig({
     },
     dedupe: ["vue-demi"],
   },
-
   build: {
     minify: true,
   },
