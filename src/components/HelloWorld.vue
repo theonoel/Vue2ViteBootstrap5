@@ -53,22 +53,24 @@
 </template>
 
 <script>
-import { Modal } from "bootstrap"
+import { Modal } from 'bootstrap'
 
 export default {
+  name: 'Hello W',
   props: {
-    msg: String,
+    msg: String
   },
   data() {
     return {
       count: 0,
-      modal: null,
-    };
+      modal: null
+    }
   },
   mounted() {
-    this.modal = new Modal(this.$refs.exampleModal);
-  },
-};
+    console.log(this.$refs)
+    this.modal = new Modal(this.$refs.exampleModal)
+  }
+}
 </script>
 
 <style scoped>
