@@ -1,8 +1,7 @@
-import path from 'path'
-import { defineConfig } from 'vite'
-import { createVuePlugin } from 'vite-plugin-vue2'
-import ViteComponents from 'vite-plugin-components'
-import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
+import path from 'path';
+import { defineConfig } from 'vite';
+import { createVuePlugin } from 'vite-plugin-vue2';
+import ViteComponents from 'vite-plugin-components';
 
 const config = defineConfig({
   resolve: {
@@ -19,14 +18,8 @@ const config = defineConfig({
     createVuePlugin(),
     ViteComponents({
       customComponentResolvers: [
-        ViteIconsResolver({
-          componentPrefix: ''
-        })
       ]
     }),
-    ViteIcons({
-      defaultStyle: ''
-    })
   ],
 
   server: {
