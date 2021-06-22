@@ -19,7 +19,10 @@
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
     </p>
-
+<div class="d-flex">
+  <div>caca</div>
+  <div class="flex-fill">pipi</div>
+</div>
     <button type="button" class="btn btn-primary" @click="modal.show()">
       Launch demo modal
     </button>

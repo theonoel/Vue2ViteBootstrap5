@@ -1,0 +1,22 @@
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  &-1 {
+    flex: 1;
+  }
+
+  &-none {
+    flex: none;
+  }
+}
+
+/* IE 11 Hack */
+_:-ms-fullscreen,
+:root
+.flex-1 {
+  flex: 1 1 auto;
+}

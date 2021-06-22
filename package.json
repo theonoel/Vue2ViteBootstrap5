@@ -2,7 +2,7 @@
   "name": "vue2-vite-bootstrap5-starter",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "watch": "vite",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint './src/**/*.{js,vue,md}'",

@@ -27,10 +27,10 @@
 
 ## Development
 
-Just run and visit [http://localhost:8080](http://localhost:9000)
+Just run and visit [http://localhost:9000](http://localhost:9000)
 
 ```bash
-npm run dev
+npm run watch
 ```
 
 ## Build
