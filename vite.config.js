@@ -13,7 +13,6 @@ const config = defineConfig({
   build: {
     minify: true
   },
-
   plugins: [
     createVuePlugin(),
     ViteComponents({

@@ -1,0 +1,5 @@
+a,
+button {
+  // Avoid browser to wait for 300ms to know if double tap on mobile phone/tablet
+  touch-action: manipulation;
+}

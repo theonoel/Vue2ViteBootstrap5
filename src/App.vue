@@ -10,30 +10,72 @@
             class="me-3"
             alt=""
           />
-          Creads Theme V2
+          Creads
         </h1>
       </div>
     </header>
     <aside class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2">
       <h2 class="h6 pt-4 pb-3 mb-4 border-bottom">On this page</h2>
-      <nav class="small" id="toc">
+      <nav
+        class="small"
+        id="toc"
+      >
         <ul class="list-unstyled">
           <li class="my-2">
-            <button class="btn d-inline-flex align-items-center" data-bs-toggle="collapse" aria-expanded="true" data-bs-target="#contents-collapse" aria-controls="contents-collapse">Contents</button>
-            <ul class="list-unstyled ps-3 collapse show" id="contents-collapse" style="">
-              <li><a class="d-inline-flex align-items-center rounded" href="#typography">Typography</a></li>
+            <button
+              class="btn d-inline-flex align-items-center"
+              data-bs-toggle="collapse"
+              aria-expanded="true"
+              data-bs-target="#contents-collapse"
+              aria-controls="contents-collapse"
+            >Contents</button>
+            <ul
+              class="list-unstyled ps-3 collapse show"
+              id="contents-collapse"
+              style=""
+            >
+              <li><a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#typography"
+                >Typography</a></li>
             </ul>
           </li>
           <li class="my-2">
-            <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse">Forms</button>
-            <ul class="list-unstyled ps-3 collapse" id="forms-collapse" style="">
-              <li><a class="d-inline-flex align-items-center rounded" href="#overview">Overview</a></li>
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#forms-collapse"
+              aria-controls="forms-collapse"
+            >Forms</button>
+            <ul
+              class="list-unstyled ps-3 collapse"
+              id="forms-collapse"
+              style=""
+            >
+              <li><a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#overview"
+                >Overview</a></li>
             </ul>
           </li>
           <li class="my-2">
-            <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse" aria-controls="components-collapse">Components</button>
-            <ul class="list-unstyled ps-3 collapse" id="components-collapse" style="">
-              <li><a class="d-inline-flex align-items-center rounded" href="#alerts">Alerts</a></li>
+            <button
+              class="btn d-inline-flex align-items-center collapsed"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              data-bs-target="#components-collapse"
+              aria-controls="components-collapse"
+            >Components</button>
+            <ul
+              class="list-unstyled ps-3 collapse"
+              id="components-collapse"
+              style=""
+            >
+              <li><a
+                  class="d-inline-flex align-items-center rounded"
+                  href="#alerts"
+                >Alerts</a></li>
             </ul>
           </li>
         </ul>
@@ -41,19 +83,65 @@
     </aside>
     <div class="bd-cheatsheet container-fluid bg-body">
       <section id="content">
-        <article class="my-3" id="typography">
+        <article
+          class="my-3"
+          id="typography"
+        >
           <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
             <h3>Typography</h3>
           </div>
           <div>
             <div class="px-4 my-5 text-center">
-              <img class="d-block mx-auto mb-4" src="./assets/img/logo-creads-black-rounded.svg" alt="" width="72" height="57">
-              <h1 class="display-5 fw-bold">Theme V2</h1>
+              <img
+                class="d-block mx-auto mb-4"
+                src="./assets/img/logo-creads-black-rounded.svg"
+                alt=""
+                width="72"
+                height="57"
+              >
+              <h1 class="display-5 fw-bold">
+                <icon
+                  name="arrow-right-circle-fill"
+                  class="text-info me-2"
+                  :width="32"
+                  :height="32"
+                />Theme V2
+                <icon
+                  name="heart-fill"
+                  class="text-danger ms-2"
+                  :width="32"
+                  :height="32"
+                />
+              </h1>
               <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">For Partners & Plateform</p>
+                <p class="lead mb-4">Ah Batard tu thème !</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="nofollow" class="btn btn-primary btn-lg" role="button">Bootstrap 5</a>
-                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                  <a
+                    href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                    target="_blank"
+                    rel="nofollow"
+                    class="btn btn-primary btn-lg"
+                    role="button"
+                  >
+                    <icon
+                      name="bootstrap"
+                      :width="16"
+                      :height="16"
+                      class="me-2"
+                    />Bootstrap 5</a>
+                  <a
+                    href="https://icons.getbootstrap.com/#icons"
+                    target="_blank"
+                    rel="nofollow"
+                    class="btn btn-outline-warning btn-lg"
+                    role="button"
+                  >
+                    <icon
+                      name="emoji-heart-eyes"
+                      :width="16"
+                      :height="16"
+                      class="me-2"
+                    />Icons</a>
                 </div>
               </div>
             </div>
@@ -103,18 +191,17 @@
         </article>
       </section>
     </div>
-    <!-- <img alt="Vue logo" src="./assets/img/logo-creads-black.svg" /> -->
     <!-- <HelloWorld msg="Theme V2" /> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 }
 </script>
 

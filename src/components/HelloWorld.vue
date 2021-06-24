@@ -13,11 +13,6 @@
         target="_blank"
       >Vue 2 Documentation</a>
     </p>
-    icon:
-    <i
-      class="bi-alarm"
-      style="font-size: 2rem; color: cornflowerblue;"
-    ></i><br />
     <div>
       <label
         for="exampleColorInput"
