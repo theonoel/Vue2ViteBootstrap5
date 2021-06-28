@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import App from './App.vue';
-//import 'bootstrap'; for JS
+import svg4everybody from 'svg4everybody';
 import './scss/main.scss';
-import './scss/cheatsheet.scss';
 
-
+// if svg not supported
+svg4everybody();
 
 new Vue({
   render: (h) => h(App)

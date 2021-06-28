@@ -17,3 +17,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+  svg {
+    fill: currentColor;
+  }
+</style>
